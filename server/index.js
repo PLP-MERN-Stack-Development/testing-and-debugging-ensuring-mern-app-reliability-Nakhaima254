@@ -14,6 +14,11 @@ const PORT = process.env.PORT || 8085;
 app.use(cors());
 app.use(express.json());
 
+// Health check endpoint for CI/CD
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+
 // API Routes
 app.get('/api/bugs', async (req, res) => {
   try {

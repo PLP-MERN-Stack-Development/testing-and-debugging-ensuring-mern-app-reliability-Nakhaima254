@@ -1,0 +1,11 @@
+{
+  "id": "4",
+  "title": "New E2E Test Bug",
+  "description": "Created during E2E testing",
+  "severity": "medium",
+  "status": "open",
+  "priority": "medium",
+  "created_by": "test-user-id",
+  "created_at": "2024-01-16T10:00:00Z",
+  "updated_at": "2024-01-16T10:00:00Z"
+}

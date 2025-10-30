@@ -1,0 +1,14 @@
+{
+  "user": {
+    "id": "new-user-id",
+    "email": "newuser@example.com",
+    "user_metadata": {
+      "full_name": "New User"
+    }
+  },
+  "session": {
+    "access_token": "new-access-token",
+    "refresh_token": "new-refresh-token",
+    "expires_at": 1738252800000
+  }
+}
